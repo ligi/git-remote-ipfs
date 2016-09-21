@@ -26,7 +26,7 @@ path with `ipfs::`, like this:
 
 The code is able to resolve ipns names, so this will also work:
 
-    git clone ipfs::/ipfs/HASH myproject
+    git clone ipns::/ipns/HASH myproject
 
 Note that ipns support is effectively useless right now, until it
 becomes possible to publish more than a single name per client.
@@ -44,7 +44,7 @@ So:
 
 For ipns names, the format is:
 
-    ipfs://HASH
+    ipns://HASH
 
 Yes, the difference is a single `/`.  This will probably changed, based on the discussion in [issue 1678][].
 
